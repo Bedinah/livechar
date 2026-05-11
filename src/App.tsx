@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="bg-white min-h-screen container mx-auto py-24 text-[#030229] font-normal text-lg">
       <div className="bg-gray-100 items-center rounded-b-md p-8 max-w-160 h-full">
-        <h2>Character Count</h2>
+        <h2>Live Character Count</h2>
         <p className="opacity-70">Keep it under {LIMIT} words</p>
         <textarea
           onChange={(e) => setText(e.target.value)}
@@ -35,5 +35,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;
